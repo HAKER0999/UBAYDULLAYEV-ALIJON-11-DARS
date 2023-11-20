@@ -31,19 +31,20 @@ header nav{
 
 }
 
-.nav-list ul {
+.nav-list  {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px 20px;
+    gap:30px ;
 }
 
-.nav-list ul li{
+.nav-list{
     padding: 0px 30px;
 
 }
 
-.nav-btn button{
+.nav-btn button {
     padding: 0px 10px;
     border: none;
     width: 128px;
@@ -59,13 +60,13 @@ header nav{
 
 }
 
-.nav-list ul li:hover{
+.nav-item:hover{
     color: blue;
     font-weight: 600;
 }
 
 
-.header{
+.home{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,11 +75,11 @@ header nav{
     /* margin: 20px; */
 }
 
-.header-left{
+.home-left{
     margin-left: 70px ;
 }
 
-.header-left p{
+.home-left p{
     border: solid 0.5px #FFFFFF40;
     border-radius: 15px;
     padding: 10px 0px;
@@ -87,23 +88,23 @@ header nav{
     margin: 20px 0px    ;
 }
 
-.header-left h1{
+.home-left h1{
     font-size: 55px;
     width: 550px;
     margin: 20px 0px;
 }
 
-.header-right img{
+.home-right img{
     width: 90%;
 
 }
 
-.header-left h5{
+.home-left h5{
     font-size: 25px;
     margin: 20px 0px;
 }
 
-.header-left button{
+.home-left button{
     width: 263px;
     height: 91px;
     border: none;
@@ -112,12 +113,12 @@ header nav{
     font-size: 25px;
 }
 
-.header-left button:hover{
+.home-left button:hover{
     background-color: #FF7B4E;
     color: white;
 }
 
-.page2{
+.Destinations{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,26 +126,26 @@ header nav{
     gap: 40px;
 }
 
-.page2-left p{
+.Destinations-left p{
 font-size: 30px;
 font-weight: 600;
 padding: 10px 0px;
 }
 
-.page2-left h1{
+.Destinations-left h1{
     font-size: 55px;
     font-weight: 600;
 
 }
 
-.page2-left h5{
+.Destinations-left h5{
     font-size: 25px;
     width: 456px;
     padding: 10px 0px;
     font-weight: 500;
 }
 
-.page2-left button{
+.Destinations-left button{
     width: 223px;
     height: 79px;
     border: none;
@@ -153,17 +154,17 @@ padding: 10px 0px;
     font-size: 20px;
 }
 
-.page2-left button:hover{
+.Destinations-left button:hover{
     background-color: #FF7B4E;
     color: white;
 }
 
-.page2-right img{
+.Destinations-right img{
     margin: 0px 20px;
 }
 
 
-.page3{
+.customers{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,19 +172,19 @@ padding: 10px 0px;
     margin-top: 200px;
 }
 
-.page3-right h1{
+.customers-right h1{
 font-size: 45px;
 width: 565px;
 margin: 20px 0px;
 }
 
-.page3-right p{
+.customers-right p{
     font-size: 33px;
     color: #0F1F1C;
     margin-bottom: 20px;
 }
 
-.page3-right h3{
+.customers-right h3{
     font-size: 25px;
     line-height: 37.5px;
     font-weight: 400;
@@ -191,14 +192,14 @@ margin: 20px 0px;
 
 }
 
-.page3-right h4{
+.customers-right h4{
     font-size: 22px;
     width: 491px;
     margin: 20px 0px;
     line-height: 33px;
 }
 
-.page4{
+.Prepare{
     background-color: #F6F6F6;
     width: 1240px;
     height: 181px;
@@ -210,20 +211,20 @@ margin: 20px 0px;
    
 }
 
-.page4 h1{
+.Prepare h1{
 width: 519px;
 font-size: 45px;
 margin: 0 auto;
 padding: 20px 0px;
 }
 
-.page4 p{
+.Prepare p{
     color: #0F1F1C;
     font-size: 30px;
     padding-bottom:20px ;
 }
 
-.page4 button{
+.Prepare-btn button{
     width: 225px;
     height: 79px;
     background-color: #77a199;
@@ -233,13 +234,13 @@ padding: 20px 0px;
     font-size: 20px;
 }
 
-.page4 button:hover{
+.Prepare-btn button:hover{
     background-color: #FF7B4E;
 
 }
 
 
-.page5 h1{
+.Newsletter h1{
 width: 494px;
 height: 166px;
 font-size: 55px;
@@ -248,7 +249,7 @@ margin: 0 auto;
 padding: 20px 0px;
 }
 
-.page5-link{
+.Newsletter-link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,12 +265,12 @@ padding: 20px 0px;
     
 }
 
-.page5-link a{
+.Newsletter-link a{
     color: #0F1F1C;
     font-size: 24px;
 }
 
-.page5-link button{
+.Newsletter-link button{
     width: 200px;
     height: 85px;
     border: none;
@@ -279,8 +280,17 @@ padding: 20px 0px;
 
 }
 
-.page5-link button:hover{
+.Newsletter-btn:hover{
     background: #FF7B4E;
+}
+
+
+.footer-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 
@@ -290,22 +300,22 @@ font-size: 20px;
 font-weight: 700;
 }
 
-.footer-navbar{
+.footer-list{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 20px;
+    /* padding-top: 70px; */
+    /* padding-bottom: 20px; */
 }
 
-.footer-list ul{
+.footer-item{
 display: flex;
 justify-content: center;
 align-items: center;
 gap: 30px;
 } 
 
-.footer-btn button{
+.footer-btn{
     /* padding: 0px 10px; */
     border: none;
     width: 128px;
@@ -317,7 +327,7 @@ gap: 30px;
     border-radius: 35px;
 }
 
-.footer-list ul li:hover{
+.footer-item:hover{
     color: blue;
     font-weight: 600;
 }
